@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nearsoft.examenboom.NewNoteActivity" >
+    <item android:id="@+id/save_note_action"
+        android:title="@string/save"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="always" />
+    <item android:id="@+id/cancel_note_action"
+        android:title="@string/cancel"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:showAsAction="always" />
+</menu>

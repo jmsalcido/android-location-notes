@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nearsoft.examenboom.ViewNoteActivity" >
+    <item android:id="@+id/view_note_location_action"
+        android:title="@string/location"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+    <item android:id="@+id/view_note_update_action"
+        android:title="@string/save"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/view_note_delete_action"
+        android:title="@string/delete"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/view_note_cancel_action"
+        android:title="@string/cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+</menu>
